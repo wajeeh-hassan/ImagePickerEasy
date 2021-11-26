@@ -41,9 +41,9 @@
 		607FACE51AFB9204008FA782 /* ImagePickerEasy_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerEasy_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6AA5ECBAE129CB0953F571B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		910E7D6B6C31007E76721A76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		9ACDBFCC269A83B2A27B76B0 /* ImagePickerEasy.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ImagePickerEasy.podspec; path = ../ImagePickerEasy.podspec; sourceTree = "<group>"; };
+		6AA5ECBAE129CB0953F571B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		910E7D6B6C31007E76721A76 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9ACDBFCC269A83B2A27B76B0 /* ImagePickerEasy.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ImagePickerEasy.podspec; path = ../ImagePickerEasy.podspec; sourceTree = "<group>"; };
 		D411094744C23605AC43D9D7 /* Pods-ImagePickerEasy_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePickerEasy_Example.debug.xcconfig"; path = "Target Support Files/Pods-ImagePickerEasy_Example/Pods-ImagePickerEasy_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F191F484873B28FE3B3C28F9 /* Pods-ImagePickerEasy_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImagePickerEasy_Example.release.xcconfig"; path = "Target Support Files/Pods-ImagePickerEasy_Example/Pods-ImagePickerEasy_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FF4B1D9772E1F7C88CC96FCA /* Pods_ImagePickerEasy_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImagePickerEasy_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +77,6 @@
 				420E4CA4E942834C1D0E3BAA /* Pods-ImagePickerEasy_Tests.debug.xcconfig */,
 				18E19F218B8B7EC24F95F6EF /* Pods-ImagePickerEasy_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -484,7 +484,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -499,7 +500,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
