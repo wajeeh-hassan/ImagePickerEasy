@@ -1,25 +1,35 @@
 # ImagePickerEasy
 
+A very simple solution to implement UIImagePickerController() in your application. 
+
+![](https://github.com/wajeeh-hassan/ImagePickerEasy/blob/master/media/demo.gif)
+
+
+
 [![CI Status](https://img.shields.io/travis/wajeehulhassan/ImagePickerEasy.svg?style=flat)](https://travis-ci.org/wajeehulhassan/ImagePickerEasy)
 [![Version](https://img.shields.io/cocoapods/v/ImagePickerEasy.svg?style=flat)](https://cocoapods.org/pods/ImagePickerEasy)
 [![License](https://img.shields.io/cocoapods/l/ImagePickerEasy.svg?style=flat)](https://cocoapods.org/pods/ImagePickerEasy)
 [![Platform](https://img.shields.io/cocoapods/p/ImagePickerEasy.svg?style=flat)](https://cocoapods.org/pods/ImagePickerEasy)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+Swift 4.2 and above
 
 ## Installation
 
 ImagePickerEasy is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
+
+
 ```ruby
 pod 'ImagePickerEasy'
 ```
 
+## Usage
+```swift
+import ImagePickerEasy
+```
 
 ```swift
    
