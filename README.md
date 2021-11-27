@@ -20,6 +20,19 @@ it, simply add the following line to your Podfile:
 pod 'ImagePickerEasy'
 ```
 
+
+```swift
+   
+   // A simple and easy method to pick images from your camera and gallery 
+   
+   ImagePickerEasy.shared.present(from: sender as! UIView, vc: self) { image in
+      if image != nil{
+          self.mImageView.image = image
+      }
+   }
+   
+```
+
 ## Author
 
 wajeehulhassan, wajeeh661@gmail.com
