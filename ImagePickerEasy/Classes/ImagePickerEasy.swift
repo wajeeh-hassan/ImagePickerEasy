@@ -61,6 +61,7 @@ open class ImagePickerEasy: NSObject {
                 alertController.popoverPresentationController?.sourceView = view
                 alertController.popoverPresentationController?.sourceRect = view.bounds
                 alertController.popoverPresentationController?.permittedArrowDirections = [.down, .up]
+                
             }
         }
         
