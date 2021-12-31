@@ -33,7 +33,7 @@ import ImagePickerEasy
 
 ```swift
    
-   // A simple and easy method to pick images from your camera and gallery 
+   // A simple and easy method to pick images from your camera and gallery
    
    ImagePickerEasy.shared.present(from: sender as! UIView, vc: self) { image in
       if image != nil{
